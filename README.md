@@ -1,8 +1,9 @@
 # SimpleCalculator
 Simple Calculator usign HTML, CSS &amp; JS
 
-AC button is for ALL CLEAR
-BEL button is for DELETE ONE DIGIT
+AC button is for ALL CLEAR.
+
+DEL button is for DELETE ONE DIGIT.
 
 Preview:
 
