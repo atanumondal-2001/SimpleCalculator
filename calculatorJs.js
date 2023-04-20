@@ -18,3 +18,8 @@ Array.from(buttons).forEach((button) => {
         }
     })
 })
+
+function changeMode() {
+    let myContainer = document.getElementById("mainId");
+    myContainer.classList.toggle('lightContainer')
+}

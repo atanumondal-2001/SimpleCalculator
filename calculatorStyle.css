@@ -3,7 +3,7 @@
         /*margin: 0;
     padding: 0;*/
         box-sizing: border-box;
-        font-family: 'Chivo Mono', monospace;
+        font-family: 'poppins', monospace;
     }
     
     body {
@@ -33,6 +33,10 @@
         color: white;
         padding-left: 50px;
         font-size: 25px;
+    }
+    
+    .fa-lightbulb {
+        color: white;
     }
     
     input {
@@ -65,6 +69,20 @@
         box-shadow: 2px 1px 9px rgba(197, 192, 192, 1.5);
     }
     
+    .modeBtn {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        margin-left: 61px;
+        border-radius: 50px;
+        background: transparent;
+        color: white;
+        border: none;
+        font-size: 20px;
+        box-shadow: 2px 1px 9px rgb(177, 172, 172);
+    }
+    
     .remove {
         background-color: rgb(209, 70, 70);
     }
@@ -86,4 +104,42 @@
         color: white;
         font-size: 15px;
         text-align: center;
+    }
+    /*CSS for Light Mode*/
+    
+    .lightContainer {
+        border: 1px solid silver;
+        padding: 20px;
+        border-radius: 16px;
+        background-color: white;
+        box-shadow: 0px 0px 20px rgb(133, 127, 127);
+        opacity: 5.5;
+    }
+    
+    .lightContainer .product_name {
+        color: black;
+    }
+    
+    .lightContainer .modeBtn {
+        background-color: rgb(134, 132, 132);
+    }
+    
+    .lightContainer .fa-lightbulb {
+        color: yellow;
+    }
+    
+    .lightContainer>h2 {
+        color: black;
+    }
+    
+    .lightContainer .input {
+        color: black;
+    }
+    
+    .lightContainer .input::placeholder {
+        color: black;
+    }
+    
+    .lightContainer .num {
+        color: rgb(10, 240, 10);
     }
